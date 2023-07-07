@@ -1,0 +1,328 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  height: auto;
+}
+
+.chat-container {
+  max-width: 700px;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.chat-header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.left{
+  padding-right: 10px;
+}
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.ig {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;  
+  margin-bottom: 10px;
+}
+.ig2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;  
+  margin-top: 15px;
+  
+}
+
+.friend-name {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+.rit{
+  margin-top: 17px;
+  width: auto;
+  height: 18px;
+}
+.chat-body {
+  padding: 10px;
+}
+.send1{
+  margin-top: 30px;
+  display: flex;
+  gap: 6px;
+}
+.ami{
+  display: flex;
+}
+.message {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.firt{
+  margin-bottom: 10px;
+  background:  #3e4042;
+  border-radius: 22px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  width: auto;
+  height: 38px;
+}
+.firt1{
+  border-radius: 22px;
+  color: #ffffff;
+text-align: center;
+background:  #3e4042;
+border: none;
+width: auto;
+height: 38px;
+}
+
+.firt2{
+  border-radius: 22px;
+  color: #ffffff;
+text-align: center;
+background:  #3e4042;
+border: none;
+width: auto;
+height: 38px;
+margin-left: 315px;
+
+}
+.message-content {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #000000;
+
+}
+
+.sent {
+  background-color: #000000;
+
+}
+
+.msg {
+  font-size: 12px;
+  color: #777;
+margin-left: 335px;
+padding-bottom: 30px;
+
+}
+.msg1{
+  font-size: 12px;
+  margin-left: 327px;
+  color: #777;
+  display: flex;
+}
+.chat-footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message-input {
+  flex-grow: 1;
+  resize: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.call-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+margin-left: 55px;
+}
+
+.fa {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.ikon{
+  margin-left: 370px;
+  word-spacing: 15px;
+  text-align: end;
+}
+.send1{
+  margin-left: 100px;
+  width: auto;
+  display: flex;
+}
+/* ... Previous CSS code ... */
+
+.send-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #777;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.send-button i {
+  font-size: 20px;
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+
+
+
+
+
+/* ... Remaining CSS code ... */
+.messenger {
+  width: 100%;
+  max-width: 800px;
+}
+
+.typing-box {
+  display: flex;
+  align-items: center;
+  padding:7px;
+  text
+}
+
+
+
+textarea {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 20px;
+  height: 26px;
+
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+button i {
+  font-size: 20px;
+  color: #555;
+}
+.messenger .typing-box textarea {
+  flex: 1;
+  background-color: #3a3b3c;
+}
+.messenger .typing-box {
+  display: flex;
+  align-items: center;
+  width: 695px;
+margin-right: 100px;
+
+}
+.messenger .typing-box i {
+  margin-right: 10px;
+}
+
+.messenger .typing-box button {
+  margin-right: 10px;
+}
+
+.messenger .typing-box textarea {
+  flex: 1;
+}
+
+.messenger .typing-box textarea,
+.messenger .typing-box button {
+  padding: 5px;
+}
+.typing-box {
+  position: relative;
+}
+
+.typing-box i.fa-face-smile {
+  color: #0084ff;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .chat-container {
+    max-width: 90%;
+  }
+  
+  .chat-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .message-input {
+    flex-grow: 1;
+    margin-top: 10px;
+  }
+  
+  .send-button {
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .call-icons {
+    position: static;
+    margin-top: 10px;
+  }
+  
+  .message-content {
+    max-width: 100%;
+  }
+  
+  .msg,
+  .msg1 {
+    margin-left: 0;
+  }
+  
+  .send1 {
+    margin-left: 0;
+  }
+}
